@@ -18,7 +18,7 @@ docker run \
  -p 5432:5432 \
  -e POSTGRES_USER=admin \
  -e POSTGRES_PASSWORD=12345 \
- -e POSTGRES_DB=banco_oltp
+ -e POSTGRES_DB=banco_oltp \
  -v postgreSQL:/var/lib/postgresql/data \
  -d postgres
 ```
